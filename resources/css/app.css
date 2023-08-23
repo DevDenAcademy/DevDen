@@ -1,0 +1,177 @@
+  /* Estilos del icono flotante */
+  .floating-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .floating-icon img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /*-----------------------------------------*/
+.navbar-nav .nav-link:hover {
+  background-color: #46327c; /* Cambiar el color de fondo al pasar el mouse */
+  color: rgb(68, 15, 99); /* Cambiar el color del texto al pasar el mouse */
+}
+
+
+.container2 {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 200px;
+    text-align: center;
+    font-family: 'Bitter';
+}
+
+.container2 h2 {
+    font-size: 24px;
+}
+
+.container2 p {
+    font-size: 18px;
+}
+
+.icon-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container2 img {
+    width: 70px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.icon-container2 img:hover {
+    transform: translateY(-10px);
+}
+
+hr {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+  /* Estilos para las preguntas frecuentes */
+
+
+  .accordion-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .active, .accordion:hover {
+    background-color: #ddd;
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+
+
+  /* color del texto de contacto */
+  .text-center {
+    text-align: center;
+    color: #D9D9D9; /* Cambia el color del texto al tono de gris deseado */
+  }
+
+  #nombre{
+    width: 60%;
+  }
+  #gmail{
+    width: 60%;
+  }
+  #pregunta{
+    width: 60%;
+  }
+
+
+  .btn-purple {
+    background-color: rgb(68, 15, 99);;
+    color: white;
+  }
+  /*----------------------*/
+
+  
+
+
+  /*----texto saliendo de un lado------*/
+  .text-center {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+  
+  .animated-heading, .animated-button {
+    opacity: 0;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animated-heading {
+    animation: fadeIn 1s forwards 1s;
+  }
+  
+  .animated-button {
+    animation: fadeIn 1s forwards 1.5s;
+  }
+  
+/*----------------------*/
+
