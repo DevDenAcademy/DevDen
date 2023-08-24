@@ -101,7 +101,7 @@
 
         <div class="d-md-flex justify-content-center" style="margin-bottom: 60px;">
             <div class="mx-auto mx-md-0 mb-4 mb-md-0" style="max-width: 600px; padding: 20px; background-color: #f5f5f5; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
-              <p style="font-family: 'Bitter'; font-size: 18px; text-align: center;">
+              <p style="font-family: 'Bitter'; font-size: 20px; text-align: center;">
                 Además de dominar las habilidades técnicas, nuestros estudiantes están equipados con la capacidad de abordar y resolver problemas como lo hacen los desarrolladores. Esto incluye dividir problemas complejos en componentes más pequeños. Al finalizar el curso, los estudiantes adquieren la confianza y las habilidades para aprender de forma independiente nuevos lenguajes o marcos de programación, una competencia vital en el vertiginoso mundo del desarrollo web. Dominar las habilidades de resolución de problemas de un desarrollador, nuestros estudiantes no solo aprenden habilidades técnicas, sino que también desarrollan la capacidad de abordar desafíos como un desarrollador, deconstruyendo problemas complejos en partes manejables.
               </p>
               <div class="mx-auto" style="max-width: 500px; margin-top: 20px;">
@@ -117,38 +117,38 @@
         <div style="text-align: center;  ">
             <br>
             <div class="d-flex justify-content-center align-items-center ">
-                <div class="accordion-container">
-                  <h2 style="text-align: center;">Preguntas Frecuentes</h2>
+              <div class="accordion-container" style="font-family: 'Bitter'; font-size: 20px;">
+                <h2 style="text-align: center;">Preguntas Frecuentes</h2>
               
-                  <button class="accordion">
-                    ¿Qué habilidades específicas puedo aprender en este Bootcamp? <img src="{{ asset('IMG/post/Iconos/flecha-hacia-abajo.png') }}" alt="Flecha hacia abajo" style="width: 20px; height: 20px;">
-                  </button>
-                  <div class="panel">
-                    <p>Respuesta </p>
-                  </div>
+                <button class="accordion">
+                  ¿Qué habilidades específicas puedo aprender en este Bootcamp? <img src="{{ asset('IMG/post/Iconos/flecha-hacia-abajo.png') }}" alt="Flecha hacia abajo" style="width: 20px; height: 20px; ">
+                </button>
+                <div class="panel">
+                  <p>En un bootcamp de Desarrollo Full Stack, se te enseñarán habilidades técnicas y prácticas relacionadas con el desarrollo de aplicaciones web desde el principio hasta el final, abarcando tanto el frontend como el backend.</p>
+                </div>
               
-                  <button class="accordion">
-                    ¿Qué tipo de apoyo y recursos brinda el bootcamp, como mentores, tutores o recursos de aprendizaje? <img src="{{ asset('IMG/post/Iconos/flecha-hacia-abajo.png') }}" alt="Flecha hacia abajo" style="width: 20px; height: 20px;">
-                  </button>
-                  <div class="panel">
-                    <p>Respuesta </p>
-                  </div>
-
-                  <button class="accordion">
-                    ¿Hay opciones de financiamiento, becas o planes de pago disponibles?<img src="{{ asset('IMG/post/Iconos/flecha-hacia-abajo.png') }}" alt="Flecha hacia abajo" style="width: 20px; height: 20px;">
-                  </button>
-                  <div class="panel">
-                    <p>Respuesta </p>
-                  </div>
-
-                  <button class="accordion">
-                    ¿Qué tecnologías o herramientas se utilizan en el bootcamp? ¿Son relevantes en el mercado laboral? <img src="{{ asset('IMG/post/Iconos/flecha-hacia-abajo.png') }}" alt="Flecha hacia abajo" style="width: 20px; height: 20px;">
-                  </button>
-                  <div class="panel">
-                    <p>Respuesta </p>
-                  </div>
+                <button class="accordion">
+                  ¿Qué tipo de apoyo y recursos brinda el bootcamp, como mentores, tutores o recursos de aprendizaje? <img src="{{ asset('IMG/post/Iconos/flecha-hacia-abajo.png') }}" alt="Flecha hacia abajo" style="width: 20px; height: 20px;">
+                </button>
+                <div class="panel">
+                  <p>En el bootcamp, recibirás apoyo de mentores, acceso a lecciones en video y proyectos prácticos para aprender desarrollo Full Stack. También tendrán herramientas y una comunidad de compañeros. Además, recibirán orientación para entrevistas y búsqueda de empleo, lo que les ayudará a entrar en la industria de manera exitosa.</p>
+                </div>
+              
+                <button class="accordion">
+                  ¿Hay opciones de financiamiento, becas o planes de pago disponibles?<img src="{{ asset('IMG/post/Iconos/flecha-hacia-abajo.png') }}" alt="Flecha hacia abajo" style="width: 20px; height: 20px;">
+                </button>
+                <div class="panel">
+                  <p>Respuesta</p>
+                </div>
+              
+                <button class="accordion">
+                  ¿Qué tecnologías o herramientas se utilizan en el bootcamp? ¿Son relevantes en el mercado laboral? <img src="{{ asset('IMG/post/Iconos/flecha-hacia-abajo.png') }}" alt="Flecha hacia abajo" style="width: 20px; height: 20px;">
+                </button>
+                <div class="panel">
+                  <p>Las tecnologías y herramientas comunes en un bootcamp Full Stack incluyen HTML, CSS, JavaScript, React, Node.js, bases de datos SQL y NoSQL, Git, plataformas de despliegue como Heroku, y APIs. Estas son relevantes en el mercado laboral, pero también es esencial aprender conceptos sólidos de programación y arquitectura para adaptarse a cambios tecnológicos futuros.</p>
                 </div>
               </div>
+              
         </div>    
     </div>
     

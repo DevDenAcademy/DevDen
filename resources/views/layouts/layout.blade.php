@@ -68,9 +68,9 @@
                 </div>
                 <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
                     <h6 style="color: #FFDB58;">Compañía</h6>
-                    <a href="#seccion-info1" style="color: #ffffff; text-decoration: none;">¿Por qué DevDen Academy?  </a>
-                    <a href="{{ route('contacto.mostrar') }}" style="color: #ffffff; text-decoration: none;">    Contacto  </a>
-                    <a href="" style="color: #ffffff; text-decoration: none;">    inicio  </a>
+                    <a href="#seccion-info1" style="color: #ffffff; text-decoration: none;">¿Por qué DevDen Academy?</a>
+                    <a href="{{ route('contacto.mostrar') }}" style="color: #ffffff; text-decoration: none;">Contacto</a>
+                    <a href="" style="color: #ffffff; text-decoration: none;">Inicio</a>
                 </div>
             </div>
         </div>
