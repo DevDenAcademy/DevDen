@@ -31,7 +31,7 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-purple">Enviar</button>
+                <button id="enviar-boton" type="submit" class="btn btn-purple">Enviar</button>
             </div>
             
             <input type="hidden" name="_next" value="{{ route('contacto.mostrar') }}">

@@ -29,7 +29,7 @@
             </p>
             <hr>
             <div style="text-align: center;">
-                <a href="https://ig.me/m/devden_academy" class="btn btn-primary" style="font-size: 18px; background-color: rgb(68, 15, 99);">Comprar</a>
+                <a href="https://ig.me/m/devden_academy" target="_blank" class="btn btn-primary" style="font-size: 18px; background-color: rgb(68, 15, 99);">Comprar</a>
 
             </div>
         </div>

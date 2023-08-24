@@ -1,5 +1,4 @@
-  
-  
+
   // movimiento de iconos
 const iconImages = document.querySelectorAll('.icon-container img');
         
@@ -42,3 +41,24 @@ iconImages.forEach(img => {
 
     // -------------------------------------------------------------
 
+// Obtén una referencia al botón
+var boton1 = document.getElementById("enviar-boton");
+
+// Agrega un evento click al botón
+boton1.addEventListener("click", function() {
+  // Verificar si el formulario tiene datos antes de mostrar la alerta
+  var formulario = document.getElementById("mi-formulario");
+  var datosValidos = verificarDatos(formulario);
+
+  if (datosValidos) {
+    alert("¡Datos enviados correctamente!");
+  } else {
+    alert("Por favor completa el formulario antes de enviar.");
+  }
+});
+
+
+function verificarDatos(formulario) {
+
+  return true; // Cambia esto según tu lógica de validación
+}
