@@ -129,8 +129,17 @@ hr {
     background-color: rgb(68, 15, 99);;
     color: white;
   }
-  /*----------------------*/
+  /*-------letras cayendo---------------*/
+  .falling-text {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 1s, transform 1s;
+}
 
+.falling-text.show {
+    opacity: 1;
+    transform: translateY(0);
+}
   
 
 

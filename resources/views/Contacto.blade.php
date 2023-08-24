@@ -34,7 +34,7 @@
                 <button type="submit" class="btn btn-purple">Enviar</button>
             </div>
             
-            <input type="hidden" name="_next" value="http://localhost/Devden/public/Contacto">
+            <input type="hidden" name="_next" value="{{ route('contacto.mostrar') }}">
             <input type="hidden" name="_captcha" value="false">
         </form>
     </div>

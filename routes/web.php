@@ -20,8 +20,8 @@ use Illuminate\Support\Facades\Mail;
 
 Route::get('/', [PrincipalController::class, 'index'])->name('index');
 
-Route::get('Contacto', [ContactoController::class, 'show'])->name('mostrarContacto');
+Route::get('contacto', [ContactoController::class, 'show'])->name('contacto.mostrar');
 
-route::post('contactar', [ContactoController::class, 'store'])->name('contactar');
+Route::post('contactar', [ContactoController::class, 'store'])->name('contacto.store');
 
-Route::get('Precios', [PreciosController::class, 'index'])->name('mostrarPrecio');
+Route::get('precios', [PreciosController::class, 'index'])->name('precios.mostrar');

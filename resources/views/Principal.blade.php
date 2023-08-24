@@ -19,31 +19,31 @@
     </div>
 
 
-     <div class="d-flex justify-content-between flex-wrap" style="margin-bottom: 100px;">
-        <div class="col-md-4" style="text-align: center;">
-            <img src="{{ asset('IMG/post/Iconos/gente-junta.png') }}" alt="Descripción de la imagen" class="img-fluid">
-            <p style="font-family: 'Bitter', serif; font-size: 18px; color: #94928b; text-align: left;">
-                En Deven Academy, tiene la oportunidad de participar en el aprendizaje junto a compañeros apasionados y de ideas afines dentro de un entorno inmersivo. Únase a una clase dinámica de estudiantes que comparten su entusiasmo por aprender.
-            </p>
-        </div>
-        
-        <div class="col-md-4" style="text-align: center;">
-            <img src="{{ asset('IMG/post/Iconos/gorra.png') }}" alt="Descripción de la imagen" class="img-fluid">
-            <p style="font-family: 'Bitter', serif; font-size: 18px; color: #94928b; text-align: left;">
-                Si bien reconocemos la conveniencia del aprendizaje remoto, hay algo realmente especial en tenerlo aquí con nosotros. En nuestro compromiso de enseñar a los estudiantes del programa de forma remota, hemos introducido nuestras tarifas de matrícula de Bootcamps más asequibles para cursos totalmente remotos.
-            </p>
-        </div>
-        
-        <div class="col-md-4" style="text-align: center;">
-            <img src="{{ asset('IMG/post/Iconos/trabajar-desde-casa.png') }}" alt="Descripción de la imagen" class="img-fluid">
-            <p style="font-family: 'Bitter', serif; font-size: 18px; color: #94928b; text-align: left;">
-                Embárquese en su viaje por la industria tecnológica equipado con conocimientos esenciales a través del plan de estudios de Devden Academy diseñado para el avance profesional. Nuestro plan de estudios no solo imparte habilidades relevantes, sino que también lo ayuda a forjar conexiones valiosas dentro de la industria.
-            </p>
-        </div>
-    </div>
+    <div class="d-flex justify-content-between flex-wrap" style="margin-bottom: 100px;">
+      <div class="col-md-4" style="text-align: center;">
+          <img src="{{ asset('IMG/post/Iconos/gente-junta.png') }}" alt="Descripción de la imagen" class="img-fluid">
+          <p class="falling-text" style="font-family: 'Bitter', serif; font-size: 18px; color: #94928b; text-align: left;">
+              En Deven Academy, tiene la oportunidad de participar en el aprendizaje junto a compañeros apasionados y de ideas afines dentro de un entorno inmersivo. Únase a una clase dinámica de estudiantes que comparten su entusiasmo por aprender.
+          </p>
+      </div>
+      
+      <div class="col-md-4" style="text-align: center;">
+          <img src="{{ asset('IMG/post/Iconos/gorra.png') }}" alt="Descripción de la imagen" class="img-fluid">
+          <p class="falling-text" style="font-family: 'Bitter', serif; font-size: 18px; color: #94928b; text-align: left;">
+              Si bien reconocemos la conveniencia del aprendizaje remoto, hay algo realmente especial en tenerlo aquí con nosotros. En nuestro compromiso de enseñar a los estudiantes del programa de forma remota, hemos introducido nuestras tarifas de matrícula de Bootcamps más asequibles para cursos totalmente remotos.
+          </p>
+      </div>
+      
+      <div class="col-md-4" style="text-align: center;">
+          <img src="{{ asset('IMG/post/Iconos/trabajar-desde-casa.png') }}" alt="Descripción de la imagen" class="img-fluid">
+          <p class="falling-text" style="font-family: 'Bitter', serif; font-size: 18px; color: #94928b; text-align: left;">
+              Embárquese en su viaje por la industria tecnológica equipado con conocimientos esenciales a través del plan de estudios de Devden Academy diseñado para el avance profesional. Nuestro plan de estudios no solo imparte habilidades relevantes, sino que también lo ayuda a forjar conexiones valiosas dentro de la industria.
+          </p>
+      </div>
+  </div>
 
     <div style="text-align: center;" id="">
-        <a href="{{ route('mostrarContacto') }}" style="font-family: 'Bitter'; display: inline-block; width: 180px; text-decoration: none; background-color: rgb(68, 15, 99); color: white; padding: 5px 10px; border-radius: 3px; font-size: 18px; margin-bottom: 100px;">Pedir información</a>
+        <a href="{{ route('contacto.mostrar') }}" style="font-family: 'Bitter'; display: inline-block; width: 180px; text-decoration: none; background-color: rgb(68, 15, 99); color: white; padding: 5px 10px; border-radius: 3px; font-size: 18px; margin-bottom: 100px;">Pedir información</a>
     </div>
 
         <!-- Tercera parte mostrar Bootcamps-->
@@ -66,7 +66,7 @@
             <div style="text-align: center;">
                 <a href="URL_DE_LA_PAGINA_DESTINO" class="btn btn-primary" style="font-size: 16px; background-color: rgb(68, 15, 99);">Descargar información</a>
 
-                <a href="{{ route('mostrarPrecio') }}" class="btn btn-primary" style="font-size: 18px; background-color: rgb(68, 15, 99);">Iniciar</a>
+                <a href="{{ route('precios.mostrar') }}" class="btn btn-primary" style="font-size: 18px; background-color: rgb(68, 15, 99);">Iniciar</a>
 
             </div>
         </div>

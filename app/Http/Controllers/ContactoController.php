@@ -24,6 +24,6 @@ class ContactoController extends Controller
 
         $contacto->save();;
         
-        return  redirect()->route('mostrarContacto');
+        return  redirect()->route('');
     }
 }

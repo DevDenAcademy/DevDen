@@ -12,9 +12,12 @@ iconImages.forEach(img => {
         img.style.transform = 'translateY(0)';
     });
 });
+  /*-------letras cayendo---------------*/
 
-
-
+  const fallingTextElements = document.querySelectorAll('.falling-text');
+  fallingTextElements.forEach(element => {
+      element.classList.add('show');
+  });
 
 
 

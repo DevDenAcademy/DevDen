@@ -31,16 +31,16 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ route('mostrarPrecio') }}" style="font-size: 22px;">Precios</a>
+                        <a class="nav-link text-white" href="{{ route('precios.mostrar') }}" style="font-size: 22px;">Precios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ route('mostrarContacto') }}" style="font-size: 22px;">Contacto</a>
+                        <a class="nav-link text-white" href="{{ route('contacto.mostrar') }}" style="font-size: 22px;">Contacto</a>
                     </li>
                     <li class="nav-item">
                         <a href="https://instagram.com/devden_academy?igshid=MzRlODBiNWFlZA==" class="nav-link text-white" style="font-size: 22px;"><img src="{{ asset('IMG/Post/Iconos/instagram.png') }}" alt="Instagram" style="width: 24px;"></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white" style="font-size: 22px;"><img src="{{ asset('IMG/Post/Iconos/facebook.png') }}" alt="Facebook" style="width: 24px;"></a>
+                        <a href="https://www.facebook.com/profile.php?id=61550068195611&sk=followers" class="nav-link text-white" style="font-size: 22px;"><img src="{{ asset('IMG/Post/Iconos/facebook.png') }}" alt="Facebook" style="width: 24px;"></a>
                     </li>
                     <li class="nav-item">
                         <a href="https://www.linkedin.com/company/devden-academy/" class="nav-link text-white" style="font-size: 22px;"><img src="{{ asset('IMG/Post/Iconos/linkedin.png') }}" alt="LinkedIn" style="width: 28px;"></a>
@@ -69,7 +69,7 @@
                 <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
                     <h6 style="color: #FFDB58;">Compañía</h6>
                     <a href="#seccion-info1" style="color: #ffffff; text-decoration: none;">¿Por qué DevDen Academy?  </a>
-                    <a href="{{ route('mostrarContacto') }}" style="color: #ffffff; text-decoration: none;">    Contacto  </a>
+                    <a href="{{ route('contacto.mostrar') }}" style="color: #ffffff; text-decoration: none;">    Contacto  </a>
                     <a href="" style="color: #ffffff; text-decoration: none;">    inicio  </a>
                 </div>
             </div>
