@@ -61,7 +61,7 @@
             </p>
             <hr>
             <div style="text-align: center;">
-                <a href="URL_DE_LA_PAGINA_DESTINO" class="btn btn-primary" style="font-size: 16px; background-color: rgb(68, 15, 99);">Descargar información</a>
+                <a href="{{ asset('IMG/post/PDF/Carrera_Full Stack_DevDen_Academy.pdf') }}" download="Carrera_Full Stack_DevDen_Academy" class="btn btn-primary" style="font-size: 16px; background-color: rgb(68, 15, 99);">Descargar información</a>
 
                 <a href="{{ route('precios.mostrar') }}" class="btn btn-primary" style="font-size: 18px; background-color: rgb(68, 15, 99);">Iniciar</a>
 
