@@ -68,9 +68,9 @@
                 <div class="col-md-6 col-lg-4 mt-4 mt-md-0">
                     <h6 style="color: #FFDB58;">Compañía</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#seccion-info1" style="color: #ffffff; text-decoration: none;">• Inicio</a></li>
+                        <li><a href="" style="color: #ffffff; text-decoration: none;">• Inicio</a></li>
                         <li><a href="{{ route('contacto.mostrar') }}" style="color: #ffffff; text-decoration: none;">• Contacto</a></li>
-                        <li><a href="" style="color: #ffffff; text-decoration: none;">• ¿Por qué DevDen Academy?</a></li>
+                        <li><a href="#seccion-info1" style="color: #ffffff; text-decoration: none;">• ¿Por qué DevDen Academy?</a></li>
                     </ul>
                 </div>
             </div>

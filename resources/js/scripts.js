@@ -1,5 +1,5 @@
 
-  // movimiento de iconos
+// movimiento de iconos
 const iconImages = document.querySelectorAll('.icon-container img');
         
 iconImages.forEach(img => {
@@ -11,16 +11,16 @@ iconImages.forEach(img => {
         img.style.transform = 'translateY(0)';
     });
 });
-  /*-------letras cayendo---------------*/
 
-  const fallingTextElements = document.querySelectorAll('.falling-text');
-  fallingTextElements.forEach(element => {
-      element.classList.add('show');
-  });
+// letras cayendo
+const fallingTextElements = document.querySelectorAll('.falling-text');
+fallingTextElements.forEach(element => {
+    element.classList.add('show');
+});
 
 
 
-  // -------------------------------------------------------------
+
 
   // Agregar evento de clic a todas las preguntas
   var acc = document.getElementsByClassName("accordion");
@@ -39,26 +39,23 @@ iconImages.forEach(img => {
   }
 
 
-    // -------------------------------------------------------------
+    
+// alerta para verificacion de campos y envio de datos
+  document.addEventListener("DOMContentLoaded", function() {
+    var formulario = document.getElementById('miFormulario');
+    var botonEnviar = document.getElementById('enviar-boton');
 
-// Obtén una referencia al botón
-var boton1 = document.getElementById("enviar-boton");
+    botonEnviar.addEventListener('click', function(event) {
+        event.preventDefault(); // Evita el envío del formulario por defecto
 
-// Agrega un evento click al botón
-boton1.addEventListener("click", function() {
-  // Verificar si el formulario tiene datos antes de mostrar la alerta
-  var formulario = document.getElementById("mi-formulario");
-  var datosValidos = verificarDatos(formulario);
+        var nombre = document.getElementById('Nombre').value;
+        var email = document.getElementById('Gmail').value;
+        var mensaje = document.getElementById('Mensaje').value;
 
-  if (datosValidos) {
-    alert("¡Datos enviados correctamente!");
-  } else {
-    alert("Por favor completa el formulario antes de enviar.");
-  }
+        if (nombre === "" || email === "" || mensaje === "") {
+              alert("Por favor, completa todos los campos.");
+        } else {
+            formulario.submit(); // Envía el formulario si todo es válido
+        }
+    });
 });
-
-
-function verificarDatos(formulario) {
-
-  return true; // Cambia esto según tu lógica de validación
-}

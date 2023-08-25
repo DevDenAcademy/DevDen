@@ -14,24 +14,24 @@
         </div>
         <hr>
         
-        <form class="text-center" action= "https://formsubmit.co/devden.academy@gmail.com" method="POST">
+        <form class="text-center" action="https://formsubmit.co/devden.academy@gmail.com" method="POST" id="miFormulario">
 
             @csrf
-
+        
             <div class="form-group d-flex justify-content-center mb-4">
                 <input type="text" class="form-control" id="Nombre" name="nombre" placeholder="Ingresa tu nombre" required>
             </div>
-
+        
             <div class="form-group d-flex justify-content-center mb-4">
                 <input type="email" class="form-control" id="Gmail" name="email" placeholder="Ingresa tu correo electrónico" required>
             </div>
-
+        
             <div class="form-group d-flex justify-content-center mb-4">
                 <textarea class="form-control" id="Mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí." required></textarea>
             </div>
-
+        
             <div class="d-flex justify-content-center">
-                <button id="enviar-boton" type="submit" class="btn btn-purple">Enviar</button>
+                <button id="enviar-boton" type="button" class="btn btn-purple">Enviar</button>
             </div>
             
             <input type="hidden" name="_next" value="{{ route('contacto.mostrar') }}">
